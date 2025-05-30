@@ -1,6 +1,11 @@
+// Toggle Dark Mode
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+// Auto-Scroll to Gallery
 document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll("img[loading='lazy']");
-    images.forEach(img => {
-        img.setAttribute("src", img.dataset.src);
+    document.getElementById("scrollGallery").addEventListener("click", () => {
+        document.querySelector(".gallery").scrollIntoView({ behavior: "smooth" });
     });
 });
