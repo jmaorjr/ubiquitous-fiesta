@@ -9,7 +9,7 @@ body {
 
 /* Header with Deep Grey and Teal Accents */
 header {
-    background: linear-gradient(135deg, #1E1E1E, #008080); /* Dark grey + teal */
+    background: linear-gradient(135deg, #008080, #008080); /* Dark grey  + teal  #1E1E1E, #008080*/
     color: white;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
