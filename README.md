@@ -1,6 +1,5 @@
 # ubiquitous-fiesta
 OrdonezFamilyWebsite </br>
-/OrdonezFamilyWebsite </br>
  ├── index.html       # Homepage (Photo & Description Display) </br>
  ├── gallery.html     # Google Photos Album Integration </br>
  ├── about.html       # About the Family </br>
